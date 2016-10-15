@@ -21,7 +21,7 @@
     vm.saveProfileEventName = 'toggleSaveProfile';
     vm.search = '';
     vm.selectTagEventName = 'selectTag';
-    vm.tags = storiesService.getTags();
+    vm.tags = storiesService.getTags(vm.results);
     
     activate();
 
@@ -49,6 +49,8 @@
       
       vm.results = (showUsers) ?
         storiesService.getUserStories() : storiesService.getServiceStories();
+  
+      vm.tags = storiesService.getTags(vm.results);
     }
     
     function inspectStory(story) {
@@ -59,7 +61,7 @@
       vm.inspectedStory = story;
     }
   
-    /** Filter stories based on selected tags */
+    /** Filter stories based on selected tags. */
     function filterTags() {
       var selectedTagNames = vm.tags
         .filter(function(tag) { return tag.isSelected; })
