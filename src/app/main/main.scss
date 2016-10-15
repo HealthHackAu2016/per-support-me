@@ -100,6 +100,7 @@ $border-radius: 3px;
       padding: 10px 0;
       box-sizing: border-box;
       text-align: center;
+      transition: .5s;
       &.active {
         background-color: $toggle-on;
         color: #ffffff;
@@ -109,7 +110,7 @@ $border-radius: 3px;
   .results {
     overflow: auto;
     width: 100%;
-    padding: $main-pad;
+    padding: ($main-pad / 2) $main-pad $main-pad;
     box-sizing: border-box;
     .snippet {
       width: calc(30% - 2px);
