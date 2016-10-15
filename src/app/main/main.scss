@@ -14,13 +14,16 @@ $border-radius: 3px;
   width: $filter-width;
   height: 100vh;
   overflow: scroll;
-  margin-right: -6px;
   background-color: $filter-color;
   display: inline-block;
   vertical-align: top;
   box-sizing: border-box;
   padding: $filter-pad ($filter-pad - 10px);
   color: $filter-font-color;
+  border-right: 1px solid $border-color;
+  position: absolute;
+  left: 0;
+  top: 0;
   .brand {
     text-align: center;
     font-size: 26px;
@@ -66,22 +69,28 @@ $border-radius: 3px;
   }
   .cookies {
     position: absolute;
-    height: 50px;
     bottom: 0;
     left: 0;
-    width: calc(#{$filter-width} - 2px);
-    padding: $filter-pad ($filter-pad - 10px);
+    right: 0;
     box-sizing: border-box;
+    .radio {
+      padding: $filter-pad ($filter-pad - 10px) 10px;
+    }
+    .emergency {
+      background-color: lighten($toggle-on, 65%);
+      border-top: 1px solid lighten($toggle-on, 60%);
+      font-size: 14px;
+      box-sizing: border-box;
+      padding: 20px ($filter-pad - 10px);
+    }
   }
 }
 .main {
-  width: 100% - $filter-width;
+  width: 100%;
   height: 100vh;
   overflow: scroll;
-  border-left: 1px solid $border-color;
   background-color: $main-color;
-  display: inline-block;
-  vertical-align: top;
+  padding-left: $filter-width;
   box-sizing: border-box;
   color: $main-font-color;
   .toggle {
@@ -101,6 +110,7 @@ $border-radius: 3px;
       box-sizing: border-box;
       text-align: center;
       transition: .5s;
+      cursor: pointer;
       &.active {
         background-color: $toggle-on;
         color: #ffffff;
@@ -125,6 +135,13 @@ $border-radius: 3px;
       border-radius: $border-radius;
       overflow: hidden;
       box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.07);
+      &.chosen {
+        background-color: $toggle-on;
+        color: $filter-color;
+        .short {
+          color: $filter-color;
+        }
+      }
     }
     .graphic {
       height: 140px;

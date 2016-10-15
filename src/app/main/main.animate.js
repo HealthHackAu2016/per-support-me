@@ -3,7 +3,7 @@
 
   angular
     .module('healthhack')
-    .animation('.fade', function() {
+    .animation('.slide', function() {
       var SPEED = 300;
       return {
         enter: function(element, done) {
@@ -18,6 +18,24 @@
         move: function(element, done) {
           element.css('display', 'none');
           $(element).slideDown(SPEED, done);
+        }
+      }
+    })
+    .animation('.fade', function() {
+      var SPEED = 300;
+      return {
+        enter: function(element, done) {
+          element.css('display', 'none');
+          setTimeout(function() {
+            $(element).fadeIn(SPEED, done);
+          }, SPEED);
+        },
+        leave: function(element, done) {
+          $(element).fadeOut(SPEED, done);
+        },
+        move: function(element, done) {
+          element.css('display', 'none');
+          $(element).fadeIn(SPEED, done);
         }
       }
     });
