@@ -51,6 +51,11 @@
       <div class="magic slide" ng-if="result.show">
         <div class="title">{{result.alias}}</div>
         <div class="short">{{result.storyFull}}</div>
+        <br>
+        Tags:
+        <ul>
+          <li ng-repeat="tag in result.tags">{{tag}}</li>
+        </ul>
       </div>
     </div>
 
