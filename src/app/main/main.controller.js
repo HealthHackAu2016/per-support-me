@@ -8,13 +8,19 @@
   /** @ngInject */
   function MainController($scope, storiesService) {
     var vm = this;
-
+    
     vm.changeView = changeView;
-    vm.search = '';
-    vm.results = storiesService.getUserStories();
-    vm.showUserStories = true;
     vm.inspectedStory;
     vm.inspectStory = inspectStory;
+    vm.results = storiesService.getUserStories();
+    vm.showUserStories = true;
+    vm.saveProfile = {
+      name: 'Save My Profile',
+      isSelected: false
+    };
+    vm.saveProfileEventName = 'toggleSaveProfile';
+    vm.search = '';
+    vm.selectTagEventName = 'selectTag';
     vm.tags = storiesService.getTags();
     
     activate();
@@ -26,6 +32,12 @@
     /** Tag selection event handler. */
     $scope.$on('selectTag', function() {
       filterTags();
+    });
+    
+    /** Save profile option event handler. */
+    $scope.$on('toggleSaveProfile', function() {
+      // TODO: Handle profile saving.
+      console.info('Save Profile: ' + vm.saveProfile.isSelected);
     });
     
     /**
