@@ -2,17 +2,25 @@
   <div class="brand">Help8</div>
   <input type="text" placeholder="Search" class="search" ng-model="vm.search"/>
   <div class="radio">
+    <p>Age Group</p>
     <div class="option">
-      <div class="ticker active"></div>
-      <div class="text">option one</div>
+      <div class="ticker"
+           ng-class="{ active: vm.ageGroups.ageGroup1 }"
+           ng-click="vm.onSelectAgeGroup('ageGroup1')">
+      </div>
+      <div class="text">Age Group 1</div>
     </div>
-    <div class="option">
-      <div class="ticker"></div>
-      <div class="text">option one</div>
+    <div class="option"
+         ng-class="{ active: vm.ageGroups.ageGroup2 }"
+         ng-click="vm.onSelectAgeGroup('ageGroup2')">
+      <div class="ticker" ng-class="{ active: vm.ageGroups.ageGroup2 }"></div>
+      <div class="text">Age Group 2</div>
     </div>
-    <div class="option">
-      <div class="ticker"></div>
-      <div class="text">option one</div>
+    <div class="option"
+         ng-class="{ active: vm.ageGroups.ageGroup3 }"
+         ng-click="vm.onSelectAgeGroup('ageGroup3')">
+      <div class="ticker" ng-class="{ active: vm.ageGroups.ageGroup3 }"></div>
+      <div class="text">Age Group 3</div>
     </div>
   </div>
   <div class="cookies">
