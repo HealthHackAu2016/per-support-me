@@ -13,6 +13,8 @@
     vm.search = '';
     vm.results = storiesService.getUserStories();
     vm.showUserStories = true;
+    vm.inspectedStory;
+    vm.inspectStory = inspectStory;
 
     activate();
 
@@ -22,12 +24,20 @@
 
     function changeView(showUsers) {
       vm.showUserStories = showUsers;
-      
+
       if (showUsers) {
         vm.results = storiesService.getUserStories();
       } else {
         vm.results = storiesService.getServiceStories();
       }
+    }
+
+    function inspectStory(story) {
+      if (vm.inspectedStory) {
+        vm.inspectedStory.show = false;
+      }
+      story.show = true;
+      vm.inspectedStory = story;
     }
   }
 })();
