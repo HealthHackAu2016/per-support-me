@@ -33,7 +33,7 @@
   <div class="results">
 
     <div ng-repeat="(index, result) in vm.results | filter:vm.search" class="fade">
-      <div class="snippet" ng-click="vm.inspectStory(result)">
+      <div class="snippet" ng-click="vm.inspectStory(result)" ng-class="{ chosen: result.show }">
         <div class="graphic" style="background-image: url('{{result.displayUrl}}');"></div>
         <div class="content">
           <div class="title">{{result.title}}</div>

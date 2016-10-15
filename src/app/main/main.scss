@@ -135,6 +135,13 @@ $border-radius: 3px;
       border-radius: $border-radius;
       overflow: hidden;
       box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.07);
+      &.chosen {
+        background-color: $toggle-on;
+        color: $filter-color;
+        .short {
+          color: $filter-color;
+        }
+      }
     }
     .graphic {
       height: 140px;
