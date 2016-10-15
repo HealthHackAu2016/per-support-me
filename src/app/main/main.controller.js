@@ -6,46 +6,14 @@
     .controller('MainController', MainController);
 
   /** @ngInject */
-  function MainController() {
+  function MainController(storiesService) {
     var vm = this;
 
-    vm.doSomething = doSomething;
+    vm.changeView = changeView;
     
-    vm.results = [
-      {
-        displayUrl: 'http://cdn2-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-8.jpg',
-        title: 'Bar',
-        text: 'blah'
-      }, {
-        displayUrl: 'http://cdn2-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-8.jpg',
-        title: 'Bar',
-        text: 'blah'
-      },      {
-        displayUrl: 'http://cdn2-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-8.jpg',
-        title: 'Bar',
-        text: 'blah'
-      }, {
-        displayUrl: 'http://cdn2-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-8.jpg',
-        title: 'Bar',
-        text: 'blah'
-      },      {
-        displayUrl: 'http://cdn2-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-8.jpg',
-        title: 'Bar',
-        text: 'blah'
-      }, {
-        displayUrl: 'http://cdn2-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-8.jpg',
-        title: 'Bar',
-        text: 'blah'
-      },      {
-        displayUrl: 'http://cdn2-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-8.jpg',
-        title: 'Bar',
-        text: 'blah'
-      }, {
-        displayUrl: 'http://cdn2-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-8.jpg',
-        title: 'Bar',
-        text: 'blah'
-      }
-    ];
+    vm.results = storiesService.getUserStories();
+    
+    vm.showUserStories = true;
 
     activate();
 
@@ -53,8 +21,14 @@
       // simulate a constructor
     }
 
-    function doSomething() {
-      // code...
+    function changeView(showUsers) {
+      vm.showUserStories = showUsers;
+      
+      if (showUsers) {
+        vm.results = storiesService.getUserStories();
+      } else {
+        vm.results = storiesService.getServiceStories();
+      }
     }
   }
 })();

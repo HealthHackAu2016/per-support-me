@@ -26,8 +26,8 @@
 </div>
 <div class="main">
   <div class="toggle">
-    <div class="stories">Stories</div>
-    <div class="services active">Services</div>
+    <div class="stories" ng-class="{ active: vm.showUserStories }" ng-click="vm.changeView(true)">Stories</div>
+    <div class="services" ng-class="{ active: !vm.showUserStories }" ng-click="vm.changeView(false)">Services</div>
   </div>
   <div class="results">
 
