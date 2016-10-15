@@ -31,7 +31,7 @@
   </div>
   <div class="results">
 
-    <div ng-repeat="(index, result) in vm.results | filter:vm.search">
+    <div ng-repeat="(index, result) in vm.results | filter:vm.search" class="fade">
       <div class="snippet" ng-click="vm.inspectStory(result)">
         <div class="graphic" style="background-image: url('{{result.displayUrl}}');"></div>
         <div class="content">
@@ -39,7 +39,7 @@
           <div class="short">{{result.text}}</div>
         </div>
       </div>
-      <div class="magic fade" ng-if="result.show">
+      <div class="magic slide" ng-if="result.show">
         <div class="title">{{result.title}}</div>
         <div class="short">{{result.text}}</div>
       </div>
