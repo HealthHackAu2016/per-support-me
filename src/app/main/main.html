@@ -34,15 +34,15 @@
 
     <div ng-repeat="(index, result) in vm.results | filter:vm.search" class="fade">
       <div class="snippet" ng-click="vm.inspectStory(result)" ng-class="{ chosen: result.show }">
-        <div class="graphic" style="background-image: url('{{result.displayUrl}}');"></div>
+        <div class="graphic" style="background-image: url('{{result.thumbnailUrl}}');"></div>
         <div class="content">
-          <div class="title">{{result.title}}</div>
-          <div class="short">{{result.text}}</div>
+          <div class="title">{{result.alias}}</div>
+          <div class="short">{{result.storyCaption}}</div>
         </div>
       </div>
       <div class="magic slide" ng-if="result.show">
-        <div class="title">{{result.title}}</div>
-        <div class="short">{{result.text}}</div>
+        <div class="title">{{result.alias}}</div>
+        <div class="short">{{result.storyFull}}</div>
       </div>
     </div>
 
