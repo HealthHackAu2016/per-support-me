@@ -7,12 +7,31 @@
 
   function storiesService() {
     var service = {
+      getTags: getTags,
       getUserStories: getUserStories,
       getServiceStories: getServiceStories
     };
 
     return service;
-
+  
+    /**
+     * Initialize a list of tag objects.
+     * @returns {Array<{string, boolean}>} - Tag objects.
+     */
+    function getTags() {
+      var tagNames = ['work', 'anger', 'school','anxiety', 'depression','bullying','teenager'];
+      var tags = [];
+      
+      tagNames.forEach(function(name) {
+        tags.push({
+          name: name,
+          isSelected: false
+        });
+      });
+      
+      return tags;
+    }
+    
     function getUserStories() {
       return [
           {
