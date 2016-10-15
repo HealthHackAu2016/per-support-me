@@ -1,6 +1,6 @@
 <div class="filters">
   <div class="brand">Help8</div>
-  <input type="text" placeholder="Search" class="search"/>
+  <input type="text" placeholder="Search" class="search" ng-model="vm.search"/>
   <div class="radio">
     <div class="option">
       <div class="ticker active"></div>
@@ -31,7 +31,7 @@
   </div>
   <div class="results">
 
-    <div class="snippet" ng-repeat="result in vm.results">
+    <div class="snippet" ng-repeat="result in vm.results | filter:vm.search">
       <div class="graphic" style="background-image: url('{{result.displayUrl}}');"></div>
       <div class="content">
         <div class="title">{{result.title}}</div>

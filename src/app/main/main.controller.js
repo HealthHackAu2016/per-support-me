@@ -10,9 +10,8 @@
     var vm = this;
 
     vm.changeView = changeView;
-    
+    vm.search = '';
     vm.results = storiesService.getUserStories();
-    
     vm.showUserStories = true;
 
     activate();

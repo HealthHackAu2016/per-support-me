@@ -17,12 +17,12 @@
       return [
         {
           displayUrl: 'http://cdn2-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-8.jpg',
-          title: 'Bar',
-          text: 'blah'
+          title: 'Derek',
+          text: 'Fong'
         }, {
           displayUrl: 'http://cdn2-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-8.jpg',
-          title: 'Bar',
-          text: 'blah'
+          title: 'Jack',
+          text: 'Scott'
         },      {
           displayUrl: 'http://cdn2-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-8.jpg',
           title: 'Bar',
