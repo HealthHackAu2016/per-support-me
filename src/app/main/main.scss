@@ -69,12 +69,20 @@ $border-radius: 3px;
   }
   .cookies {
     position: absolute;
-    height: 50px;
     bottom: 0;
     left: 0;
     right: 0;
-    padding: $filter-pad ($filter-pad - 10px);
     box-sizing: border-box;
+    .radio {
+      padding: $filter-pad ($filter-pad - 10px) 10px;
+    }
+    .emergency {
+      background-color: lighten($toggle-on, 65%);
+      border-top: 1px solid lighten($toggle-on, 60%);
+      font-size: 14px;
+      box-sizing: border-box;
+      padding: 20px ($filter-pad - 10px);
+    }
   }
 }
 .main {
