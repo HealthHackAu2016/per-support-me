@@ -49,8 +49,6 @@
       
       vm.results = (showUsers) ?
         storiesService.getUserStories() : storiesService.getServiceStories();
-  
-      vm.tags = storiesService.getTags(vm.results);
     }
     
     function inspectStory(story) {
