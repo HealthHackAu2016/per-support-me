@@ -1,6 +1,6 @@
 <div class="filters">
   <div class="brand">Help8</div>
-  <input type="text" placeholder="Search" class="search"/>
+  <input type="text" placeholder="Search" class="search" ng-model="vm.search"/>
   <div class="radio">
     <div class="option">
       <div class="ticker active"></div>
@@ -26,156 +26,18 @@
 </div>
 <div class="main">
   <div class="toggle">
-    <div class="stories">Stories</div>
-    <div class="services active">Services</div>
+    <div class="stories" ng-class="{ active: vm.showUserStories }" ng-click="vm.changeView(true)">Stories</div>
+    <div class="services" ng-class="{ active: !vm.showUserStories }" ng-click="vm.changeView(false)">Services</div>
   </div>
   <div class="results">
-    <div class="snippet">
-      <div class="graphic"></div>
+
+    <div class="snippet" ng-repeat="result in vm.results | filter:vm.search">
+      <div class="graphic" style="background-image: url('{{result.displayUrl}}');"></div>
       <div class="content">
-        <div class="title">This is a title</div>
-        <div class="short">Some short text, maybe a snip from the whole body</div>
+        <div class="title">{{result.title}}</div>
+        <div class="short">{{result.text}}</div>
       </div>
     </div>
-    <div class="snippet">
-      <div class="graphic"></div>
-      <div class="content">
-        <div class="title">This is a title</div>
-        <div class="short">Some short text, maybe a snip from the whole body</div>
-      </div>
-    </div>
-    <div class="snippet">
-      <div class="graphic"></div>
-      <div class="content">
-        <div class="title">This is a title</div>
-        <div class="short">Some short text, maybe a snip from the whole body</div>
-      </div>
-    </div>
-    <div class="snippet">
-      <div class="graphic"></div>
-      <div class="content">
-        <div class="title">This is a title</div>
-        <div class="short">Some short text, maybe a snip from the whole body</div>
-      </div>
-    </div>
-    <div class="snippet">
-      <div class="graphic"></div>
-      <div class="content">
-        <div class="title">This is a title</div>
-        <div class="short">Some short text, maybe a snip from the whole body</div>
-      </div>
-    </div>
-    <div class="snippet">
-      <div class="graphic"></div>
-      <div class="content">
-        <div class="title">This is a title</div>
-        <div class="short">Some short text, maybe a snip from the whole body</div>
-      </div>
-    </div>
-    <div class="snippet">
-      <div class="graphic"></div>
-      <div class="content">
-        <div class="title">This is a title</div>
-        <div class="short">Some short text, maybe a snip from the whole body</div>
-      </div>
-    </div>
-    <div class="snippet">
-      <div class="graphic"></div>
-      <div class="content">
-        <div class="title">This is a title</div>
-        <div class="short">Some short text, maybe a snip from the whole body</div>
-      </div>
-    </div>
-    <div class="snippet">
-      <div class="graphic"></div>
-      <div class="content">
-        <div class="title">This is a title</div>
-        <div class="short">Some short text, maybe a snip from the whole body</div>
-      </div>
-    </div>
-    <div class="snippet">
-      <div class="graphic"></div>
-      <div class="content">
-        <div class="title">This is a title</div>
-        <div class="short">Some short text, maybe a snip from the whole body</div>
-      </div>
-    </div>
-    <div class="snippet">
-      <div class="graphic"></div>
-      <div class="content">
-        <div class="title">This is a title</div>
-        <div class="short">Some short text, maybe a snip from the whole body</div>
-      </div>
-    </div>
-    <div class="snippet">
-      <div class="graphic"></div>
-      <div class="content">
-        <div class="title">This is a title</div>
-        <div class="short">Some short text, maybe a snip from the whole body</div>
-      </div>
-    </div>
-    <div class="snippet">
-      <div class="graphic"></div>
-      <div class="content">
-        <div class="title">This is a title</div>
-        <div class="short">Some short text, maybe a snip from the whole body</div>
-      </div>
-    </div>
-    <div class="snippet">
-      <div class="graphic"></div>
-      <div class="content">
-        <div class="title">This is a title</div>
-        <div class="short">Some short text, maybe a snip from the whole body</div>
-      </div>
-    </div>
-    <div class="snippet">
-      <div class="graphic"></div>
-      <div class="content">
-        <div class="title">This is a title</div>
-        <div class="short">Some short text, maybe a snip from the whole body</div>
-      </div>
-    </div>
-    <div class="snippet">
-      <div class="graphic"></div>
-      <div class="content">
-        <div class="title">This is a title</div>
-        <div class="short">Some short text, maybe a snip from the whole body</div>
-      </div>
-    </div>
-    <div class="snippet">
-      <div class="graphic"></div>
-      <div class="content">
-        <div class="title">This is a title</div>
-        <div class="short">Some short text, maybe a snip from the whole body</div>
-      </div>
-    </div>
-    <div class="snippet">
-      <div class="graphic"></div>
-      <div class="content">
-        <div class="title">This is a title</div>
-        <div class="short">Some short text, maybe a snip from the whole body</div>
-      </div>
-    </div>
-    <div class="snippet">
-      <div class="graphic"></div>
-      <div class="content">
-        <div class="title">This is a title</div>
-        <div class="short">Some short text, maybe a snip from the whole body</div>
-      </div>
-    </div>
-    <div class="snippet">
-      <div class="graphic"></div>
-      <div class="content">
-        <div class="title">This is a title</div>
-        <div class="short">Some short text, maybe a snip from the whole body</div>
-      </div>
-    </div>
-    <div class="snippet">
-      <div class="graphic"></div>
-      <div class="content">
-        <div class="title">This is a title</div>
-        <div class="short">Some short text, maybe a snip from the whole body</div>
-      </div>
-    </div>
+
   </div>
 </div>

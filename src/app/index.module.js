@@ -9,7 +9,6 @@
       'ngSanitize',
       'ngMessages',
       'ngAria',
-      'ui.router',
-      'toastr'
+      'ui.router'
     ]);
 })();

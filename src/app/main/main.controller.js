@@ -6,10 +6,13 @@
     .controller('MainController', MainController);
 
   /** @ngInject */
-  function MainController($timeout, webDevTec, toastr) {
+  function MainController(storiesService) {
     var vm = this;
 
-    vm.doSomething = doSomething;
+    vm.changeView = changeView;
+    vm.search = '';
+    vm.results = storiesService.getUserStories();
+    vm.showUserStories = true;
 
     activate();
 
@@ -17,8 +20,14 @@
       // simulate a constructor
     }
 
-    function doSomething() {
-      // code...
+    function changeView(showUsers) {
+      vm.showUserStories = showUsers;
+      
+      if (showUsers) {
+        vm.results = storiesService.getUserStories();
+      } else {
+        vm.results = storiesService.getServiceStories();
+      }
     }
   }
 })();
