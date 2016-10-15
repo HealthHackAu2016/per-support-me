@@ -6,5 +6,4 @@
     .module('healthhack')
     .constant('malarkey', malarkey)
     .constant('moment', moment);
-
 })();

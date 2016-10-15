@@ -17,5 +17,4 @@
 
     $urlRouterProvider.otherwise('/');
   }
-
 })();
