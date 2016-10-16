@@ -21,7 +21,7 @@
     vm.saveProfileEventName = 'toggleSaveProfile';
     vm.search = '';
     vm.selectTagEventName = 'selectTag';
-    vm.tagCategories = storiesService.getTagCategories(vm.showUserStories);
+    vm.tagCategories = storiesService.getTagCategories();
     
     activate();
 
@@ -46,8 +46,6 @@
      */
     function changeView(showUsers) {
       vm.showUserStories = showUsers;
-  
-      vm.tagCategories = storiesService.getTagCategories(vm.showUserStories);
       
       vm.results = (showUsers) ?
         storiesService.getUserStories() : storiesService.getServiceStories();

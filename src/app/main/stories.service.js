@@ -17,51 +17,44 @@
 
     /**
      * Get tag categories.
-     * @param {boolean} showUserStories - Show user categories if `true`; show service provider categories otherwise.
      * @return {Object} - Tag categories.
      */
-    function getTagCategories(showUserStories) {
-      var tagCategories = [];
-
-      if (showUserStories) {
-        /**
-         * @example
-         * ```
-         * {
-         *  categoryName: 'Foo',
-         *  tagNames: ['tagName1', 'tagName2', 'tagName3']
-         * }
-         * ```
-         */
-        tagCategories = [{
-          categoryName: 'Description',
-          tags: createTagObjects(['Anxiety', 'Depression', 'Anger', 'Suicidal', 'Sadness'])
-        }, {
-          categoryName: 'age',
-          tags: createTagObjects(['12 to 18', '19 to 25', '25 or older'])
-        }, {
-          categoryName: 'Identity',
-          tags: createTagObjects(['LGBTIQ' ,'Aboriginal and Torres Strait Islander', 'CALD'])
-        }, {
-          categoryName: 'Topic',
-          tags: createTagObjects(['Bullying', 'Drugs and Alcohol', 'Family', 'School / University', 'Work', 'Gender Identity'])
-        }];
-      } else {
-        tagCategories = [{
-          categoryName: 'Access Method',
-          tags: createTagObjects(['In Person', 'Email', 'Phone', 'Chat', 'Video Conference', 'Chat Bot'])
-        }, {
-          categoryName: 'Opening Hours',
-          tags: createTagObjects(['24 hour', 'After hours', 'Weekends'])
-        }, {
-          categoryName: 'Billing',
-          tags: createTagObjects(['Medicare', 'Bulk Bill', 'Private Health', 'Private', 'Veteran Services', 'Concession Card'])
-        },{
-          categoryName: 'Service',
-          tags: createTagObjects(['Counselling', 'Psychiatry'])
-        }];
-      }
-      return tagCategories;
+    function getTagCategories() {
+      
+      /**
+       * @example
+       * ```
+       * {
+       *  categoryName: 'Foo',
+       *  tagNames: ['tagName1', 'tagName2', 'tagName3']
+       * }
+       * ```
+       */
+      return [{
+        categoryName: 'Description',
+        tags: createTagObjects(['Anxiety', 'Depression', 'Anger', 'Suicidal', 'Sadness'])
+      }, {
+        categoryName: 'Age',
+        tags: createTagObjects(['12 to 18', '19 to 25', '25 or older'])
+      }, {
+        categoryName: 'Identity',
+        tags: createTagObjects(['LGBTIQ' ,'ATSI', 'CALD'])
+      }, {
+        categoryName: 'Topic',
+        tags: createTagObjects(['Bullying', 'Drugs and Alcohol', 'Family', 'School / University', 'Work', 'Gender Identity'])
+      }, {
+        categoryName: 'Access Method',
+        tags: createTagObjects(['In Person', 'Email', 'Phone', 'Chat', 'Video Conference', 'Chat Bot'])
+      }, {
+        categoryName: 'Opening Hours',
+        tags: createTagObjects(['24 hour', 'After hours', 'Weekends'])
+      }, {
+        categoryName: 'Billing',
+        tags: createTagObjects(['Medicare', 'Bulk Bill', 'Private Health', 'Private', 'Veteran Services', 'Concession Card'])
+      },{
+        categoryName: 'Service',
+        tags: createTagObjects(['Counselling', 'Psychiatry'])
+      }];
     }
 
     /**
