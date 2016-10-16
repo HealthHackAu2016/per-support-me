@@ -124,7 +124,7 @@
 
     function getUserStories() {
       return [{
-        "thumbnailUrl": "http://amritsarovar.com/wp-content/uploads/2014/05/addiction-conquer.png",
+        "thumbnailUrl": "https://www.headspace.org.au/assets/Uploads/_resampled/ResizedImage600400-headspace-photo-library-School-079.jpg",
         "videoUrl": "",
         "serviceId": "",
         "promoted": "",
@@ -134,7 +134,7 @@
         "storyFull": "I had begun to feel like I didn't fit in to the boxes that people were trying to put me in. I discovered SupportMe.Com and straight away I didn't feel alone anymore. I saw some stories from people like me who had found services that helped them on their journey. So I decided to tell my story...",
         "tags": ['school', 'anxiety', 'depression', 'bullying', 'teenager', 'atsi']
       }, {
-        "thumbnailUrl": "http://cdn.newsapi.com.au/image/v1/ceed36c0d8015b48755b13f76dee8ec3?width=650",
+        "thumbnailUrl": "http://cpfcfoundation.org/wp-content/uploads/2015/12/jamie2.jpg",
         "videoUrl": "",
         "serviceId": "",
         "promoted": "",
@@ -144,7 +144,7 @@
         "storyFull": "I'm a local Nugar man and I had problems with grog and weed but i found i couldn't talk to my friends and family, i felt alone and there is was too much information on google. However I found a blog that linked me to SupportMe and it showed me stories of people like me who found help from services that also matched my need for weekend confidentual support. Now I have the skills and ongoing support to ensure I can cope with lifes ups and downs without the need for drug and alcohol",
         "tags": ['school', 'anxiety', 'depression', 'bullying', 'teenager']
     }, {
-      "thumbnailUrl": "http://cdn2-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-8.jpg",
+      "thumbnailUrl": "http://s3-eu-west-1.amazonaws.com/24dash-media/image/2015/02/26/59257/580_Image_Charlotte.jpg",
       "videoUrl": "",
       "serviceId": "",
       "promoted": "",
@@ -154,7 +154,7 @@
       "storyFull": "I had begun to feel like I didn't fit in to the boxes that people were trying to put me in. I discovered SupportMe.Com and straight away I didn't feel alone anymore. I saw some stories from people like me who had found services that helped them on their journey. So I decided to tell my story...",
       "tags": ['school', 'anxiety', 'depression', 'bullying', 'teenager']
       }, {
-        "thumbnailUrl": "http://au.reachout.com/-/media/images/articles-1/teen_girl_in_dress_and_pink_leggings_walking_on_beam_at_beach_while_holding_onto_boys_hand.jpg?mw=280&hash=40702BCA71AD13A1EA8A44738382B97E6D3C02E4",
+        "thumbnailUrl": "https://s3-eu-west-1.amazonaws.com/cjp-rbi-comcare/wp-content/uploads/sites/7/2016/02/rexfeatures_4127425a.jpg",
         "videoUrl": "",
         "serviceId": "",
         "promoted": "",
@@ -164,7 +164,7 @@
         "storyFull": "Hi my name is Raj. I struggled to find a counsellor who I could speak to about issues I was having in my personal life. I wanted to speak to someone who would understand my cultural background and the pressures I was having at home. Through Supportme, I was able to find a counsellor who was able to work through my issues while considering my cultural background. They were also able to meet me face to face as I often feel uncomfortable talking to people over the phone. I’m feeling much better now that I’ve talked to someone and I encourage you to do the same.",
         "tags": ['school', 'anxiety', 'depression', 'bullying', 'teenager', 'cald', 'family']
       }, {
-        "thumbnailUrl": "http://www.seabreeze.com.au/img/Content/10363559/Help-a-local-chick-win-the-stand-up-paddling-world-tour-1.jpg",
+        "thumbnailUrl": "http://photos.donateaphoto.com/amer/causes/pictures/56683ce3-9a68-42da-a134-0dc40a641095.jpg",
         "videoUrl": "",
         "serviceId": "",
         "promoted": "",
@@ -174,7 +174,7 @@
         "storyFull": "My name is Jack Smith. I have family issues. I witness domestic violence regularly. My parents are going through a divorce. I was distraught and disillusioned with my life. I came across the SupportMe website and found services that helped me cope with my situation. I’m happy with the services I found through the SupportMe website.",
         "tags": ['school', 'anxiety', 'depression', 'teenager', 'family']
       }, {
-        "thumbnailUrl": "http://www.abc.net.au/cm/rimage/7933106-16x9-medium.jpg?v=2",
+        "thumbnailUrl": "http://www.huddinge.se/Global/stod_och_omsorg/barn_ungdom_familj/kontaktperson_kontaktfamilj/506px_kontaktfamilj_frikopt.jpg",
         "videoUrl": "",
         "serviceId": "",
         "promoted": "",
