@@ -1,5 +1,5 @@
 <ul ng-repeat="cat in tagCategories">
-  <span ng-click="toggleTags(cat.categoryName)">
+  <span ng-click="toggleTags(cat.categoryName)" class="cursor-pointer">
     <i ng-if="!isExpanded[cat.categoryName]"
        class="fa fa-caret-right" aria-hidden="true"></i>
     <i ng-if="isExpanded[cat.categoryName]"

@@ -13,6 +13,9 @@ $toggle-on: #5f0b9a;
 $border-color: darken($main-color, 8%);
 $border-radius: 3px;
 
+.cursor-pointer {
+  cursor: pointer;
+}
 .filters {
   width: $filter-width;
   height: 100vh;
@@ -27,6 +30,15 @@ $border-radius: 3px;
   position: absolute;
   left: 0;
   top: 0;
+  ul {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    li {
+      margin: 0;
+      padding: 0;
+    }
+  }
   .brand {
     text-align: center;
     font-size: 40px;
@@ -49,6 +61,9 @@ $border-radius: 3px;
   .checkbox {
     .option {
       margin-bottom: 10px;
+      &:first-child {
+        margin-top: 20px;
+      }
     }
     .ticker {
       width: 15px;
