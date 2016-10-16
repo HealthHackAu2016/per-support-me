@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('healthhack')
+    .module('healthhack', ['ngMap'])
     .controller('MainController', MainController);
 
   /** @ngInject */
@@ -32,11 +32,7 @@
     }
 
     function getServices() {
-      navigator.geolocation.getCurrentPosition(function(position){
-        var latitude = position.coords.latitude;
-        var longitude = position.coords.longitude;
-        https://maps.googleapis.com/maps/api/staticmap?size=600x300&maptype=roadmap&markers=color:red%7Clabel:S%7C40.702147,-74.015794
-      });
+
     }
 
     /** Tag selection event handler. */
@@ -47,7 +43,7 @@
     /** Save profile option event handler. */
     $scope.$on('toggleSaveProfile', function() {
       // TODO: Handle profile saving.
-      console.info('Save Profile: ' + vm.saveProfile.isSelected);
+      //console.info('Save Profile: ' + vm.saveProfile.isSelected);
     });
 
     /**

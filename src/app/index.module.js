@@ -9,6 +9,7 @@
       'ngSanitize',
       'ngMessages',
       'ngAria',
-      'ui.router'
+      'ui.router',
+      'ngMap'
     ]);
 })();
