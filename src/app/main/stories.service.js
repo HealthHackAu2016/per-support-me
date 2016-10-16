@@ -14,7 +14,7 @@
     };
 
     return service;
-    
+
     /**
      * Get tag categories.
      * @param {boolean} showUserStories - Show user categories if `true`; show service provider categories otherwise.
@@ -22,7 +22,7 @@
      */
     function getTagCategories(showUserStories) {
       var tagCategories = [];
-      
+
       if (showUserStories) {
         /**
          * @example
@@ -63,7 +63,7 @@
       }
       return tagCategories;
     }
-    
+
     /**
      * Create tag objects.
      * @private
@@ -72,7 +72,7 @@
      */
     function createTagObjects(tagNames) {
       var tagObjects = [];
-      
+
       tagNames.forEach(function(tagName) {
         tagObjects.push({
           name: tagName.toLowerCase(),
@@ -81,7 +81,7 @@
       });
       return tagObjects;
     }
-    
+
     /**
      * Initialize a list of tag objects.
      * @returns {Array<{string, boolean}>} - Tag objects.
@@ -132,7 +132,7 @@
     function getUserStories() {
       return [{
         "thumbnailUrl": "http://amritsarovar.com/wp-content/uploads/2014/05/addiction-conquer.png",
-        "videoUrl": "",
+        "videoUrl": "asdfasdfasd",
         "serviceId": "Multi",
         "promoted": "",
         "dateCreated": "",
