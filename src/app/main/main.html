@@ -4,14 +4,23 @@
     <p>Tags</p>
     <hh-checkbox ng-repeat="tag in vm.tags" data-obj="tag" data-event-name="vm.selectTagEventName"></hh-checkbox>
   <div class="cookies">
-      <hh-checkbox data-obj="vm.saveProfile" data-event-name="vm.saveProfileEventName"></hh-checkbox>
-    <div class="emergency">Get help now: 1300 651 251</div>
+    <hh-checkbox data-obj="vm.saveProfile" data-event-name="vm.saveProfileEventName"></hh-checkbox>
+    <div class="emergency">
+      Get help now: 1300 651 251
+      <i class="fa fa-phone"></i>
+    </div>
   </div>
 </div>
 <div class="main">
   <div class="toggle">
-    <div class="stories" ng-class="{ active: vm.showUserStories }" ng-click="vm.changeView(true)">Stories</div>
-    <div class="services" ng-class="{ active: !vm.showUserStories }" ng-click="vm.changeView(false)">Services</div>
+    <div class="stories" ng-class="{ active: vm.showUserStories }" ng-click="vm.changeView(true)">
+      <i class="fa fa-user"></i>
+      Stories
+    </div>
+    <div class="services" ng-class="{ active: !vm.showUserStories }" ng-click="vm.changeView(false)">
+      <i class="fa fa-home"></i>
+      Services
+    </div>
   </div>
   <div class="results">
 
