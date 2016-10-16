@@ -139,8 +139,8 @@
         "openingHours": "Monday 8:30am - 12:30 pm- 1:30pm - 5Pm<br/>Tuesday 8:30am - 12:30 pm- 1:30pm - 5Pm<br/>Wednesday 8:30am - 12:30 pm- 1:30pm - 5Pm<br/>Thursday 8:30am - 12:30 pm- 1:30pm - 5Pm<br/>Friday 8:30am - 2pm<br/>Saturday Closed<br/>Sunday Closed",
         "email": "info@aads.org.au",
         "description": "AADS services work within a culturally secure model and offer treatments and education programs as well as yarning (counselling) and a range of natural healing therapies",
-        "servicesProvided": [''],
-        "tags": ['']
+        "servicesProvided": [],
+        "tags": ['school', 'anxiety', 'depression', 'teenager', 'family']
       }, {
         "id": "3",
         "thumbnailUrl": "https://s.graphiq.com/sites/default/files/stories/t2/tiny_cat_12573_8950.jpg",
@@ -154,8 +154,8 @@
         "openingHours": "Monday Closed<br/>Tuesday Closed<br/>Wednesday Closed<br/>Thursday Closed<br/>Friday Closed<br/>Saturday Closed<br/>Sunday Closed",
         "email": "info@adds.org.au",
         "description": "The Youth programs for AADS are a part of the all of family or holistic prevention and treatment services for Indigenous people. A feature of this program is the “Get on Move on Program” which is a mobile alcohol and drug education and promotional tool that is used in school and education workshops. Other related activities involve leadership and education camps, Youth Forum that AADS maintains to ensure involvement of young people in policy and program development within the AOD sector.",
-        "servicesProvided": [''],
-        "tags": ['']
+        "servicesProvided": [],
+        "tags": ['school', 'anxiety', 'family']
       }, {
         "id": "4",
         "thumbnailUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRCE2B-1UFsrlBbqQ6HvltfLhscCImlCbeEgrdilp34Mq8UbXKA8w",
@@ -169,8 +169,8 @@
         "openingHours": "Monday Closed<br/>Tuesday Closed<br/>Wednesday Closed<br/>Thursday Closed<br/>Friday Closed<br/>Saturday Closed<br/>Sunday Closed",
         "email": "arcs@adoptionwa.org.au",
         "description": "Counselling, support and outreach service for anyone separated from birth family, adoption, foster care, step family etc.",
-        "servicesProvided": [''],
-        "tags": ['']
+        "servicesProvided": [],
+        "tags": ['school']
       }, {
         "id": "5",
         "thumbnailUrl": "https://s.graphiq.com/sites/default/files/stories/t2/tiny_cat_12573_8950.jpg",
@@ -184,8 +184,8 @@
         "openingHours": "Monday Closed<br/>Tuesday Closed<br/>Wednesday Closed<br/>Thursday Closed<br/>Friday Closed<br/>Saturday Closed<br/>Sunday Closed",
         "email": "aidsline@waaids.com",
         "description": "AIDSLine offers a discrete and confidential counselling, advice and information line for anyone with questions or concerns about AIDS or HIV.",
-        "servicesProvided": [''],
-        "tags": ['']
+        "servicesProvided": [],
+        "tags": ['depression', 'teenager', 'family']
       }, {
         "id": "6",
         "thumbnailUrl": "https://www.variety.org.au/PageFiles/778/variety_yash_2016-76.jpg",
@@ -199,8 +199,8 @@
         "openingHours": "Monday 8:30am - 5pm<br/>Tuesday 8:30am - 5pm<br/>Wednesday 8:30am - 5pm<br/>Thursday 8:30am - 5pm<br/>Friday 8:30am - 5pm<br/>Saturday Closed<br/>Sunday Closed",
         "email": "",
         "description": "The network exists to deliver holistic and culturally appropriate health care and health related services to the Aboriginal community. The medical and health services have various locations around Western Australia.",
-        "servicesProvided": [''],
-        "tags": ['']
+        "servicesProvided": [],
+        "tags": ['school', 'family']
       }, {
         "id": "7",
         "thumbnailUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRCE2B-1UFsrlBbqQ6HvltfLhscCImlCbeEgrdilp34Mq8UbXKA8w",
@@ -214,8 +214,8 @@
         "openingHours": "Monday 5pm-8pm<br/>Tuesday 5pm-8pm<br/>Wednesday 5pm-8pm<br/>Thursday 5pm-8pm<br/>Friday 4pm-8pm<br/>Saturday 12pm-5pm<br/>Sunday Closed",
         "email": "info@Free!dom.org.au",
         "description": "Freedom Centre is safe place to meet other young people (under 26) who are LGBTIQQ (Lesbian, Gay, Bisexual, Trans*, Intersex, Queer & Questioning).<br/><br/>Come in and chat, hang out, have fun and get peer support & info from the staff and volunteers if you want it. There’s also computers with internet access, a library full of info, interesting reads and corny gay fiction! We also do activities like games, craft, zine-making, and heaps more at various drop-in sessions.",
-        "servicesProvided": [''],
-        "tags": ['']
+        "servicesProvided": [],
+        "tags": ['school', 'anxiety']
       }, {
         "id": "8",
         "thumbnailUrl": "https://s.graphiq.com/sites/default/files/stories/t2/tiny_cat_12573_8950.jpg",
@@ -229,8 +229,8 @@
         "openingHours": "Monday 5pm - 8pm<br/>Tuesday Closed<br/>Wednesday Closed<br/>Thursday Closed<br/>Friday Closed<br/>Saturday Closed<br/>Sunday Closed",
         "email": "info@freedom.org.au",
         "description": "A session for young people 18 & under who are intersex, trans, and/or gender diverse and their families.<br/><br/>Last Monday of every even month 5pm – 8pm.",
-        "servicesProvided": [''],
-        "tags": ['']
+        "servicesProvided": [],
+        "tags": ['school', 'depression', 'teenager']
       }, {
         "id": "9",
         "thumbnailUrl": "https://www.variety.org.au/PageFiles/778/variety_yash_2016-76.jpg",
@@ -244,8 +244,8 @@
         "openingHours": "Monday Closed<br/>Tuesday Closed<br/>Wednesday Closed<br/>Thursday Closed<br/>Friday Closed<br/>Saturday 12pm - 5pm, 2nd & 4th Saturday of every month<br/>Sunday Closed",
         "email": "info@freedom.org.au",
         "description": "A session for all people under 26 who are LGBTIQQ. These sessions are activity-based so come along to try something new, get active and have fun!<br/><br/>Outspace – 2nd & 4th Saturday of the month 12pm-5pm.",
-        "servicesProvided": [''],
-        "tags": ['']
+        "servicesProvided": [],
+        "tags": []
       }, {
         "id": "10",
         "thumbnailUrl": "https://s.graphiq.com/sites/default/files/stories/t2/tiny_cat_12573_8950.jpg",
@@ -259,8 +259,8 @@
         "openingHours": "",
         "email": "",
         "description": "",
-        "servicesProvided": [''],
-        "tags": ['']
+        "servicesProvided": [],
+        "tags": []
       }, {
         "id": "11",
         "thumbnailUrl": "https://s.graphiq.com/sites/default/files/stories/t2/tiny_cat_12573_8950.jpg",
@@ -274,8 +274,8 @@
         "openingHours": "Monday Closed<br/>Tuesday Closed<br/>Wednesday Closed<br/>Thursday Closed<br/>Friday Closed<br/>Saturday Closed<br/>Sunday Closed",
         "email": "fremantlepcyc@wapcyc.com.au",
         "description": "PCYC has many specialised programs in place, aimed at engaging ‘youth at risk’ as part of our focus on crime prevention. We aim to identify the situations that lead young people to behave antisocially, commit an offence or become the victim of an offence and then recommend a program to suit that youth’s situation. All programs are managed by Police Officers and many are delivered in partnership with trained youth workers and other key stakeholders such as Juvenile Justice Teams, local schools and Councils.By offering alternative educational and recreational pathways in a safe, comfortable environment, we assist young people in gaining valuable life skills and experience. As well as providing the potential for further training and employment, these programs encourage self-confidence, leadership development and teamwork.",
-        "servicesProvided": [''],
-        "tags": ['']
+        "servicesProvided": [],
+        "tags": []
       }, {
         "id": "12",
         "thumbnailUrl": "https://s.graphiq.com/sites/default/files/stories/t2/tiny_cat_12573_8950.jpg",
@@ -289,8 +289,8 @@
         "openingHours": "Monday 9am - 5pm<br/>Tuesday 9am - 5pm<br/>Wednesday 9am - 5pm<br/>Thursday 9am - 5pm<br/>Friday 9am - 5pm<br/>Saturday Closed<br/>Sunday Closed",
         "email": "info@headspacejoondalup.com.au",
         "description": "headspace provides young people aged 12-25 free help with:<br/><br/>• general health<br/>• mental health and wellbeing<br/>• alcohol and other drugs<br/>• education and employment<br/>• and other services<br/><br/>If you are going through a tough time, headspace has your back.",
-        "servicesProvided": [''],
-        "tags": ['']
+        "servicesProvided": [],
+        "tags": []
       }, {
         "id": "13",
         "thumbnailUrl": "https://s.graphiq.com/sites/default/files/stories/t2/tiny_cat_12573_8950.jpg",
@@ -304,8 +304,8 @@
         "openingHours": "Monday 7:00pm - 10:00pm<br/>Tuesday 7:00pm - 10:00pm<br/>Wednesday 7:00pm - 10:00pm<br/>Thursday 7:00pm - 10:00pm<br/>Friday 7:00pm - 10:00pm<br/>Saturday Closed<br/>Sunday Closed",
         "email": "",
         "description": "Provides essential services to the gay, lesbian, bisexual and transgender communities, including our peer counselling phone line and social support groups. We also offer a number of training options for the general community, ranging from one-hour personal perspectives talks to half- and full-day workplace training in diverse sexuality and gender. We also have a successful history of running funded projects, often in partnership with other community groups.",
-        "servicesProvided": [''],
-        "tags": ['']
+        "servicesProvided": [],
+        "tags": ['school', 'anxiety', 'depression', 'teenager', 'family', 'lgbtiq']
       }, {
         "id": "14",
         "thumbnailUrl": "https://s.graphiq.com/sites/default/files/stories/t2/tiny_cat_12573_8950.jpg",
@@ -319,8 +319,8 @@
         "openingHours": "Monday 9am-4pm<br/>Tuesday 9am-4pm<br/>Wednesday 9am-4pm<br/>Thursday 9am-4pm<br/>Friday 9am-4pm<br/>Saturday Closed<br/>Sunday Closed",
         "email": "info@mwhcp.org.au",
         "description": "Midland Women’s Health Care Place offers<br/>· Counselling (general emotional well-being, for a variety of issues)<br/>· Counselling (Embrace – postnatal depression program)<br/>· Embrace Mum’s & Bubs Therapy Group<br/>· Low cost exercise groups and other courses<br/>· Self Esteem Group<br/>· Library and resource centre<br/>· Information and referral service for agencies<br/>· Free Pap Smear Clinic<br/>· Free crèche for women attending our services<br/><br/>Services offered primarily from Midland, however we do also offer outreach services for the Embrace Mums and Bubs Program from Ellenbrook. This includes both the Embrace Mums & Bubs Therapy Group & counselling services.",
-        "servicesProvided": [''],
-        "tags": ['']
+        "servicesProvided": [],
+        "tags": []
       }, {
         "id": "15",
         "thumbnailUrl": "https://s.graphiq.com/sites/default/files/stories/t2/tiny_cat_12573_8950.jpg",
@@ -334,8 +334,8 @@
         "openingHours": "Monday 8.30am – 4.30pm<br/>Tuesday 8.30am – 4.30pm<br/>Wednesday 8.30am – 4.30pm<br/>Thursday 8.30am – 4.30pm<br/>Friday 8.30am – 4.30pm<br/>Saturday Closed<br/>Sunday Closed",
         "email": "",
         "description": "South Coastal Women’s Health Services is a not-for-profit women’s health service, run by women for women, in the Rockingham/Kwinana area.<br/><br/>The service offers Well Women’s clinics run by female GPs and provides a confidential, safe environment. Appointments can be made for any women’s issues including:<br/>Pap Smears<br/>Breast Care<br/>Gynaecological investigations<br/>Pregnancy testing and counselling<br/>Menstrual problems<br/>STIs<br/>Termination advice and referral<br/>Contraception",
-        "servicesProvided": [''],
-        "tags": ['']
+        "servicesProvided": [],
+        "tags": []
       }, {
         "id": "16",
         "thumbnailUrl": "https://s.graphiq.com/sites/default/files/stories/t2/tiny_cat_12573_8950.jpg",
@@ -349,8 +349,8 @@
         "openingHours": "Monday 9am - 5pm<br/>Tuesday 9am - 5pm<br/>Wednesday 9am - 5pm<br/>Thursday 9am - 5pm<br/>Friday 9am - 5pm<br/>Saturday Closed<br/>Sunday Closed",
         "email": "admin.swcdst@sjog.org.au",
         "description": "The St John of God Bunbury Hospital South West Community Drug Service Team is a specialist, multi-disciplinary team working with clients in Western Australia’s South West to reduce the harm associated with the use of alcohol and other drugs.<br/><br/>The team has worked within the South West community since 1998, providing information, resources, consultation, and education and counselling with confidentiality assured.<br/><br/>The team also works closely with youth and mental health service providers, medical and health professionals, Department of Child Protection, Department of Corrective Services, several Aboriginal Health Services, other human service providers and local communities.<br/><br/>Our aim is to provide free of charge where possible, easily accessible counselling and support for individuals and their ‘significant others’ and consultation, shared case management, information, education, intervention,training and counselling for the community of the South West.",
-        "servicesProvided": [''],
-        "tags": ['']
+        "servicesProvided": [],
+        "tags": []
       }, {
         "id": "17",
         "thumbnailUrl": "https://s.graphiq.com/sites/default/files/stories/t2/tiny_cat_12573_8950.jpg",
@@ -364,8 +364,8 @@
         "openingHours": "Monday 9am - 5pm<br/>Tuesday 9am - 5pm<br/>Wednesday 9am - 5pm<br/>Thursday 9am - 5pm<br/>Friday 9am - 5pm<br/>Saturday Closed<br/>Sunday Close",
         "email": "fmhss@mercycare.com.au",
         "description": "This service assists children, young people and their families who are experiencing issues that are making them feel sad, upset or stressed.",
-        "servicesProvided": [''],
-        "tags": ['']
+        "servicesProvided": [],
+        "tags": []
       }, {
         "id": "18",
         "thumbnailUrl": "https://s.graphiq.com/sites/default/files/stories/t2/tiny_cat_12573_8950.jpg",
@@ -379,8 +379,8 @@
         "openingHours": "Monday 25hrs<br/>Tuesday 25hrs<br/>Wednesday 25hrs<br/>Thursday 25hrs<br/>Friday 25hrs<br/>Saturday 25hrs<br/>Sunday 25hrs",
         "email": "support@thebutterflyfoundation.org.au",
         "description": "The Butterfly Foundation represents all people affected by eating disorders and negative body image – a person with the illness, their family and their friends. As a leading national voice in supporting their needs, Butterfly highlights the realities of seeking treatment for recovery, and advocates for improved services from both government and independent sources.<br/><br/>Butterfly operates a national support line, which is staffed by trained counsellors experienced in assisting with eating disorders. It also provides a wide range of programs for service providers and recovery groups.<br/><br/>Because Butterfly recognises that eating disorders often arise from poor body image, it delivers a range of Positive Body Image workshops to schools and workplaces through its education program. It has a strong media presence to raise awareness of Butterfly’s perspective in community debates about body image and eating disorders.",
-        "servicesProvided": [''],
-        "tags": ['']
+        "servicesProvided": [],
+        "tags": []
       }, {
         "id": "19",
         "thumbnailUrl": "https://s.graphiq.com/sites/default/files/stories/t2/tiny_cat_12573_8950.jpg",
@@ -394,8 +394,8 @@
         "openingHours": "Monday Closed<br/>Tuesday 10am - 6pm<br/>Wednesday 10am - 6pm<br/>Thursday 10am - 6pm<br/>Friday 10am - 6pm<br/>Saturday Closed<br/>Sunday Closed",
         "email": "",
         "description": "Town of Bassendean Youth Services offers a range of structured and unstructured programs for young people in the 12 – 25 age range. These include recreational activities, support services and referral to specialist agencies. <br/>The Youth Centre is open for you to just come and chill. The Youth Centre has a 12 high end computers with games and Facebook, two PS3s with 60 inch screens, a pool table, a ping-pong table, a movie room with loads of movies – and everything is free! <br/>Every second Friday the Youth Centre stays open until 10:00pm. Located right outside the Bassendean Youth Service the skate park features a euro gap, ¾ bowl with extension, hubba ledges, manual pad and flat bar. Lights at the Skate Park are on until 10pm each night. <br/>Bassendean Youth Services works with Swan Emergency Accommodation to provide medium term accommodation for up to 12 months.",
-        "servicesProvided": [''],
-        "tags": ['']
+        "servicesProvided": [],
+        "tags": []
       }, {
         "id": "20",
         "thumbnailUrl": "https://s.graphiq.com/sites/default/files/stories/t2/tiny_cat_12573_8950.jpg",
@@ -409,8 +409,8 @@
         "openingHours": "Monday Closed<br/>Tuesday Closed<br/>Wednesday Closed<br/>Thursday Closed<br/>Friday Closed<br/>Saturday Closed<br/>Sunday Closed",
         "email": "yshac.rockingham@anglicarewa.org.au",
         "description": "Crisis accommodation for 15-20 year olds for up to 3 months. Assisting homeless young people with long-term accommodation, independent living skills, physical and emotional health.",
-        "servicesProvided": [''],
-        "tags": ['']
+        "servicesProvided": [],
+        "tags": []
       }];
     }
 
