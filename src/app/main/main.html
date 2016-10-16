@@ -1,26 +1,13 @@
 <div class="filters">
   <div class="brand">Help8</div>
   <input type="text" placeholder="Search" class="search" ng-model="vm.search"/>
-  <div class="radio">
-    <div class="option">
-      <div class="ticker active"></div>
-      <div class="text">option one</div>
-    </div>
-    <div class="option">
-      <div class="ticker"></div>
-      <div class="text">option one</div>
-    </div>
-    <div class="option">
-      <div class="ticker"></div>
-      <div class="text">option one</div>
-    </div>
-  </div>
+    <p>Tags</p>
+    <hh-checkbox ng-repeat="tag in vm.tags" data-obj="tag" data-event-name="vm.selectTagEventName"></hh-checkbox>
   <div class="cookies">
-    <div class="radio">
-      <div class="option">
-        <div class="ticker"></div>
-        <div class="text">Save my profile</div>
-      </div>
+    <hh-checkbox data-obj="vm.saveProfile" data-event-name="vm.saveProfileEventName"></hh-checkbox>
+    <div class="emergency">
+      Get help now: 1300 651 251
+      <i class="fa fa-phone"></i>
     </div>
   </div>
   <div class="services_btn" ng-controller="MainController">
@@ -29,22 +16,33 @@
 </div>
 <div class="main">
   <div class="toggle">
-    <div class="stories" ng-class="{ active: vm.showUserStories }" ng-click="vm.changeView(true)">Stories</div>
-    <div class="services" ng-class="{ active: !vm.showUserStories }" ng-click="vm.changeView(false)">Services</div>
+    <div class="stories" ng-class="{ active: vm.showUserStories }" ng-click="vm.changeView(true)">
+      <i class="fa fa-user"></i>
+      Stories
+    </div>
+    <div class="services" ng-class="{ active: !vm.showUserStories }" ng-click="vm.changeView(false)">
+      <i class="fa fa-home"></i>
+      Services
+    </div>
   </div>
   <div class="results">
 
-    <div ng-repeat="(index, result) in vm.results | filter:vm.search">
-      <div class="snippet" ng-click="vm.inspectStory(result)">
-        <div class="graphic" style="background-image: url('{{result.displayUrl}}');"></div>
+    <div ng-repeat="(index, result) in vm.results | filter:vm.search" class="fade">
+      <div class="snippet" ng-click="vm.inspectStory(result)" ng-class="{ chosen: result.show }">
+        <div class="graphic" style="background-image: url('{{result.thumbnailUrl}}');"></div>
         <div class="content">
-          <div class="title">{{result.title}}</div>
-          <div class="short">{{result.text}}</div>
+          <div class="title">{{result.alias}}</div>
+          <div class="short">{{result.storyCaption}}</div>
         </div>
       </div>
-      <div class="magic fade" ng-if="result.show">
-        <div class="title">{{result.title}}</div>
-        <div class="short">{{result.text}}</div>
+      <div class="magic slide" ng-if="result.show">
+        <div class="title">{{result.alias}}</div>
+        <div class="short">{{result.storyFull}}</div>
+        <br>
+        Tags:
+        <ul>
+          <li ng-repeat="tag in result.tags">{{tag}}</li>
+        </ul>
       </div>
     </div>
 
