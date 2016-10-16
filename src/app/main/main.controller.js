@@ -21,7 +21,7 @@
     vm.saveProfileEventName = 'toggleSaveProfile';
     vm.search = '';
     vm.selectTagEventName = 'selectTag';
-    vm.tags = storiesService.getTags(vm.results);
+    vm.tagCategories = storiesService.getTagCategories();
     
     activate();
 
@@ -30,12 +30,12 @@
     }
   
     /** Tag selection event handler. */
-    $scope.$on('selectTag', function() {
+    $scope.$on(vm.selectTagEventName, function() {
       filterTags();
     });
     
     /** Save profile option event handler. */
-    $scope.$on('toggleSaveProfile', function() {
+    $scope.$on(vm.saveProfileEventName, function() {
       // TODO: Handle profile saving.
       console.info('Save Profile: ' + vm.saveProfile.isSelected);
     });
@@ -61,10 +61,14 @@
   
     /** Filter stories based on selected tags. */
     function filterTags() {
-      var selectedTagNames = vm.tags
-        .filter(function(tag) { return tag.isSelected; })
-        .map(function(tag) { return tag.name; });
   
+      var selectedTagNames = _.chain(vm.tagCategories)
+        .map(function(category) { return category.tags; })
+        .flattenDeep()
+        .filter(function(tag) { return tag.isSelected === true; })
+        .map(function(tag) { return tag.name; })
+        .value();
+      
       // Show all stories
       // Perform filtering only if at least one `tag` is selected.
       vm.changeView(vm.showUserStories);
@@ -77,7 +81,7 @@
       
       function matchTags(needle, haystack) {
         for(var i = 0; i < needle.length; i++) {
-          if(haystack.indexOf(needle[i]) === -1)
+          if(haystack.indexOf(needle[i].toLowerCase()) === -1)
             return false;
         }
         return true;
