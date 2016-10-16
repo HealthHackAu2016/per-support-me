@@ -15,11 +15,23 @@
     vm.showUserStories = true;
     vm.inspectedStory;
     vm.inspectStory = inspectStory;
+    vm.getServices = getServices;
+    vm.location = 
 
     activate();
 
     function activate() {
       // simulate a constructor
+    }
+    function getServices() {
+
+
+      navigator.geolocation.getCurrentPosition(function(position){
+        var latitude = position.coords.latitude;
+        var longitude = position.coords.longitude;
+        https://maps.googleapis.com/maps/api/staticmap?size=600x300&maptype=roadmap&markers=color:red%7Clabel:S%7C40.702147,-74.015794
+      });
+
     }
 
     function changeView(showUsers) {
@@ -39,5 +51,6 @@
       story.show = true;
       vm.inspectedStory = story;
     }
+
   }
 })();
