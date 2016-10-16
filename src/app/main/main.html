@@ -25,19 +25,53 @@
   <div class="results">
 
     <div ng-repeat="(index, result) in vm.results | filter:vm.search" class="fade">
-      <div class="snippet" ng-click="vm.inspectStory(result)" ng-class="{ chosen: result.show }">
+      <div class="snippet" ng-if="result.alias" ng-click="vm.inspectStory(result)" ng-class="{ chosen: result.show }">
         <div class="graphic" style="background-image: url('{{result.thumbnailUrl}}');"></div>
         <div class="content">
           <div class="title">{{result.alias}}</div>
           <div class="short">{{result.storyCaption}}</div>
         </div>
       </div>
-      <div class="magic slide" ng-if="result.show">
+      <div class="magic slide" ng-if="result.alias && result.show">
         <div class="title">{{result.alias}}</div>
         <div class="short">{{result.storyFull}}</div>
-        <br>
-        Tags:
-        <ul>
+        <ul class="tags">
+          <li ng-repeat="tag in result.tags">{{tag}}</li>
+        </ul>
+      </div>
+      <div class="snippet" ng-if="result.name" ng-click="vm.inspectStory(result)" ng-class="{ chosen: result.show }">
+        <div class="graphic" style="background-image: url('{{result.thumbnailUrl}}');"></div>
+        <div class="content">
+          <div class="title">{{result.name}}</div>
+          <div class="short">{{result.phone}}</div>
+        </div>
+      </div>
+      <div class="magic slide" ng-if="result.name && result.show">
+        <div class="title">{{result.name}}</div>
+        <div class="short" ng-bind-html="result.description"></div>
+        <div class="short">
+          <br>
+          <i class="fa fa-phone"></i>
+          {{result.phone}}
+        </div>
+        <div class="short">
+          <i class="fa fa-envelope-o"></i>
+          {{result.email}}
+        </div>
+        <div class="short">
+          <i class="fa fa-home"></i>
+          {{result.address}}, {{result.suburb}} {{result.state}} {{result.postcode}}
+        </div>
+        <div class="short">
+          <br>
+          <i class="fa fa-calendar"></i>
+          Opening hours:
+          <br>
+          <br>
+          <div ng-bind-html="result.openingHours"></div>
+          <br>
+        </div>
+        <ul class="tags">
           <li ng-repeat="tag in result.tags">{{tag}}</li>
         </ul>
       </div>
