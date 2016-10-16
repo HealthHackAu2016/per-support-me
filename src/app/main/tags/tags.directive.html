@@ -1,0 +1,14 @@
+<ul ng-repeat="cat in tagCategories">
+  <span ng-click="toggleTags(cat.categoryName)">
+    <i ng-if="!isExpanded[cat.categoryName]"
+       class="fa fa-caret-right" aria-hidden="true"></i>
+    <i ng-if="isExpanded[cat.categoryName]"
+       class="fa fa-caret-down" aria-hidden="true"></i>
+    {{cat.categoryName}}
+  </span>
+  <hh-checkbox ng-if="isExpanded[cat.categoryName]"
+               ng-repeat="tag in cat.tags"
+               data-obj="tag"
+               data-event-name="eventName">
+  </hh-checkbox>
+</ul>
