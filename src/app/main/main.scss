@@ -1,3 +1,5 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css";
+
 $filter-width: 30%;
 $filter-color: #ffffff;
 $filter-pad: 40px;
@@ -41,7 +43,7 @@ $border-radius: 3px;
     margin-bottom: 30px;
     color: $toggle-on;
   }
-  .radio {
+  .checkbox {
     .option {
       margin-bottom: 10px;
     }
@@ -73,7 +75,7 @@ $border-radius: 3px;
     left: 0;
     right: 0;
     box-sizing: border-box;
-    .radio {
+    .checkbox {
       padding: $filter-pad ($filter-pad - 10px) 10px;
     }
     .emergency {
@@ -82,6 +84,13 @@ $border-radius: 3px;
       font-size: 14px;
       box-sizing: border-box;
       padding: 20px ($filter-pad - 10px);
+      position: relative;
+      i {
+        position: absolute;
+        right: ($filter-pad - 10px);
+        top: 18px;
+        font-size: 22px;
+      }
     }
   }
 }

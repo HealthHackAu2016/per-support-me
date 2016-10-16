@@ -7,12 +7,58 @@
 
   function storiesService() {
     var service = {
+      getTags: getTags,
       getUserStories: getUserStories,
       getServiceStories: getServiceStories
     };
 
     return service;
+  
+    /**
+     * Initialize a list of tag objects.
+     * @returns {Array<{string, boolean}>} - Tag objects.
+     */
+    function getTags(stories) {
+      var tags = [];
+      
+      if (stories) {
+        var uniqueTagsNames = [];
+        var storyTagNames = stories.map(function (story) { return story.tags; });
+  
+        // Get unique tags from `stories`.
+        storyTagNames.forEach(function(storyTags) {
+          uniqueTagsNames = unionTags(uniqueTagsNames, storyTags);
+        });
+        
+        uniqueTagsNames.sort();
+  
+        uniqueTagsNames.forEach(function(name) {
+          tags.push({
+            name: name,
+            isSelected: false
+          });
+        });
+      }
+      return tags;
+    }
+    
+    function unionTags (x, y) {
+      var obj = {};
+      for (var i = x.length-1; i >= 0; -- i) {
+        obj[x[i]] = x[i];
+      }
 
+      for (var j = y.length-1; j >= 0; -- j) {
+        obj[y[j]] = y[j];
+      }
+      var res = [];
+      for (var k in obj) {
+        if (obj.hasOwnProperty(k))  // <-- optional
+          res.push(obj[k]);
+      }
+      return res;
+    }
+    
     function getUserStories() {
       return [
           {
