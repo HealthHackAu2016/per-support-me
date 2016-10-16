@@ -142,7 +142,7 @@
         "alias": "Bec",
         "storyCaption": "I was bullied for being Aboriginal",
         "storyFull": "I had begun to feel like I didn't fit in to the boxes that people were trying to put me in. I discovered SupportMe.Com and straight away I didn't feel alone anymore. I saw some stories from people like me who had found services that helped them on their journey. So I decided to tell my story...",
-        "tags": ['school', 'anxiety', 'depression', 'bullying', 'teenager']
+        "tags": ['school', 'anxiety', 'depression', 'bullying', 'teenager', 'atsi']
       }, {
         "thumbnailUrl": "http://cdn.newsapi.com.au/image/v1/ceed36c0d8015b48755b13f76dee8ec3?width=650",
         "videoUrl": "",
@@ -201,7 +201,7 @@
         "email": "info@aads.org.au",
         "description": "AADS services work within a culturally secure model and offer treatments and education programs as well as yarning (counselling) and a range of natural healing therapies",
         "servicesProvided": [],
-        "tags": ['school', 'anxiety', 'depression', 'teenager', 'family']
+        "tags": ['school', 'anxiety', 'depression', 'teenager', 'family', 'atsi']
       }, {
         "id": "3",
         "thumbnailUrl": "https://s.graphiq.com/sites/default/files/stories/t2/tiny_cat_12573_8950.jpg",
@@ -216,7 +216,7 @@
         "email": "info@adds.org.au",
         "description": "The Youth programs for AADS are a part of the all of family or holistic prevention and treatment services for Indigenous people. A feature of this program is the “Get on Move on Program” which is a mobile alcohol and drug education and promotional tool that is used in school and education workshops. Other related activities involve leadership and education camps, Youth Forum that AADS maintains to ensure involvement of young people in policy and program development within the AOD sector.",
         "servicesProvided": [],
-        "tags": ['school', 'anxiety', 'family']
+        "tags": ['school', 'anxiety', 'family', 'atsi']
       }, {
         "id": "4",
         "thumbnailUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRCE2B-1UFsrlBbqQ6HvltfLhscCImlCbeEgrdilp34Mq8UbXKA8w",
@@ -261,7 +261,7 @@
         "email": "",
         "description": "The network exists to deliver holistic and culturally appropriate health care and health related services to the Aboriginal community. The medical and health services have various locations around Western Australia.",
         "servicesProvided": [],
-        "tags": ['school', 'family']
+        "tags": ['school', 'family', 'atsi']
       }, {
         "id": "7",
         "thumbnailUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRCE2B-1UFsrlBbqQ6HvltfLhscCImlCbeEgrdilp34Mq8UbXKA8w",
@@ -411,7 +411,7 @@
         "email": "admin.swcdst@sjog.org.au",
         "description": "The St John of God Bunbury Hospital South West Community Drug Service Team is a specialist, multi-disciplinary team working with clients in Western Australia’s South West to reduce the harm associated with the use of alcohol and other drugs.<br/><br/>The team has worked within the South West community since 1998, providing information, resources, consultation, and education and counselling with confidentiality assured.<br/><br/>The team also works closely with youth and mental health service providers, medical and health professionals, Department of Child Protection, Department of Corrective Services, several Aboriginal Health Services, other human service providers and local communities.<br/><br/>Our aim is to provide free of charge where possible, easily accessible counselling and support for individuals and their ‘significant others’ and consultation, shared case management, information, education, intervention,training and counselling for the community of the South West.",
         "servicesProvided": [],
-        "tags": []
+        "tags": ['atsi']
       }, {
         "id": "17",
         "thumbnailUrl": "https://s.graphiq.com/sites/default/files/stories/t2/tiny_cat_12573_8950.jpg",
