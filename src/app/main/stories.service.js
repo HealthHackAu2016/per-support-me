@@ -20,7 +20,7 @@
      * @return {Object} - Tag categories.
      */
     function getTagCategories() {
-      
+
       /**
        * @example
        * ```
@@ -125,22 +125,12 @@
     function getUserStories() {
       return [{
         "thumbnailUrl": "http://amritsarovar.com/wp-content/uploads/2014/05/addiction-conquer.png",
-        "videoUrl": "asdfasdfasd",
-        "serviceId": "Multi",
-        "promoted": "",
-        "dateCreated": "",
-        "alias": "Nursey",
-        "storyCaption": "I was questioning my gender and I foiund help",
-        "storyFull": "I had begun to feel like I didn't fit in to the boxes that people were trying to put me in. I discovered SupportMe.Com and straight away I didn't feel alone anymore. I saw some stories from people like me who had found services that helped them on their journey. So I decided to tell my story...",
-        "tags": ['school', 'anxiety', 'depression', 'bullying', 'teenager']
-      }, {
-        "thumbnailUrl": "http://cdn2-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-8.jpg",
         "videoUrl": "",
         "serviceId": "",
         "promoted": "",
         "dateCreated": "",
-        "alias": "Bec",
-        "storyCaption": "I was bullied for being Aboriginal",
+        "alias": "Nursey",
+        "storyCaption": "I was questioning my gender and I found help",
         "storyFull": "I had begun to feel like I didn't fit in to the boxes that people were trying to put me in. I discovered SupportMe.Com and straight away I didn't feel alone anymore. I saw some stories from people like me who had found services that helped them on their journey. So I decided to tell my story...",
         "tags": ['school', 'anxiety', 'depression', 'bullying', 'teenager', 'atsi']
       }, {
@@ -151,8 +141,18 @@
         "dateCreated": "",
         "alias": "Mike",
         "storyCaption": "I had problems with drugs and alcohol but now I dont need them anymore",
-        "storyFull": "Im a local Nugar man and I had problems with grog and weed but i found i couldn't talk to my friends and family, i felt alone and there is was too much information on google. However I found a blog that linked me to SupportMe and it showed me stories of people like me who found help from services that also matched my need for weekend confidentual support. Now I have the skills and ongoing support to ensure I can cope with lifes ups and downs without the need for drug and alcohol",
+        "storyFull": "I'm a local Nugar man and I had problems with grog and weed but i found i couldn't talk to my friends and family, i felt alone and there is was too much information on google. However I found a blog that linked me to SupportMe and it showed me stories of people like me who found help from services that also matched my need for weekend confidentual support. Now I have the skills and ongoing support to ensure I can cope with lifes ups and downs without the need for drug and alcohol",
         "tags": ['school', 'anxiety', 'depression', 'bullying', 'teenager']
+    }, {
+      "thumbnailUrl": "http://cdn2-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-8.jpg",
+      "videoUrl": "",
+      "serviceId": "",
+      "promoted": "",
+      "dateCreated": "",
+      "alias": "Bec",
+      "storyCaption": "I was bullied for being Aboriginal",
+      "storyFull": "I had begun to feel like I didn't fit in to the boxes that people were trying to put me in. I discovered SupportMe.Com and straight away I didn't feel alone anymore. I saw some stories from people like me who had found services that helped them on their journey. So I decided to tell my story...",
+      "tags": ['school', 'anxiety', 'depression', 'bullying', 'teenager']
       }, {
         "thumbnailUrl": "http://au.reachout.com/-/media/images/articles-1/teen_girl_in_dress_and_pink_leggings_walking_on_beam_at_beach_while_holding_onto_boys_hand.jpg?mw=280&hash=40702BCA71AD13A1EA8A44738382B97E6D3C02E4",
         "videoUrl": "",

@@ -36,7 +36,9 @@
       <div class="magic slide" ng-if="result.alias && result.show">
         <div class="title">{{result.alias}}</div>
         <div class="short">{{result.storyFull}}</div>
-        <video ng-if="result.videoUrl" src="result.videoUrl" class="showtime"></video>
+        <div class="video">
+            <video controls="controls" width="400" height="300" src="http://www.in8beats.com/healthhack/Bec.mp4"></video>
+        </div>
         <ul class="tags">
           <li ng-repeat="tag in result.tags">{{tag}}</li>
         </ul>
